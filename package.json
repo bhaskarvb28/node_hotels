@@ -1,0 +1,18 @@
+{
+  "name": "node_tutorial",
+  "version": "1.0.0",
+  "description": "its a nodejs tutorial by prince",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhaskar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.20.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.6.1",
+    "nodemon": "^3.1.4"
+  }
+}
