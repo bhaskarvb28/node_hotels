@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
 
 //Define the MongoDB connection URL
-const mongoURL = `mongodb://localhost:27017/hotels` // Replace 'hotels' with your database name
-
+//Local URL
+//const mongoURL = `mongodb://localhost:27017/hotels` // Replace 'hotels' with your database name
+//Online URL
+const mongoURL = 'mongodb+srv://bhaskarvb28:<aa8sflFJaPxWEyOO>@hotels.x86ca.mongodb.net/'
 // Set up MongoDB connection
 // If you don't pass these parameters you'll get some error
 // MongoDB constantly upgrades itself
@@ -33,3 +35,4 @@ db.on('disconnected', () => {
 // Export the database connection
 
 module.exports = db;
+
